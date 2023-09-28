@@ -9,7 +9,7 @@ requests
 pygame
 gunicorn
 pytz
-pickle
+pickle5
 json
 random
 time
