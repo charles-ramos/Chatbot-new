@@ -11,7 +11,7 @@ To run it locally on your system, follow these steps:
 1. Clone this repository onto your system. On Command Prompt, run the following command:
 
 ```
-git clone ...\\\||\\##@!
+git clone (https://github.com/Qoshawa/Chatbot.git)
 ```
 2. Change your directory to Chatbot:
 ```
@@ -19,7 +19,7 @@ cd Chatbot
 ```
 3. Make sure you have all the required libraries listed in requirements.txt. In case any of the libraries are missing, install them using pip. Type this command into your Command Prompt, replacing 'Your-library-name' by the required library name:
 ```
-pip install Your-library-name 
+pip install requirements.txt
 ```
 4. Then run the follwing commands to run the application:
 ```
