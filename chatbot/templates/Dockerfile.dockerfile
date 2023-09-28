@@ -2,7 +2,7 @@
 FROM python:3.11.4
 
 # Set the working directory in the container to /app
-WORKDIR /chatbot
+WORKDIR /full_code.py
 
 # Add the current directory contents into the container at /app
 ADD . /chatbot
