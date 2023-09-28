@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Samaritan Login</title>
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2597/2597330.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+
+    body {
+        background-image: url(https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/75975da0-7952-490c-a396-f507446156d8/top-view-fresh-foods-spices-vegetables-cooking-white-table.jpg?content-type=image%2Fjpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        backface-visibility: hidden;
+	    display:flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: 50vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form {
+        background-color: rgba(240, 248, 255, 0.6);
+        color: rgb(5, 20, 34);
+        border: 3px solid #f1f1f1;
+        width: 50%;
+        margin: auto;
+    }
+
+    .imgcontainer {
+        color: aliceblue;
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+
+    .container {
+        color: #5a2608;
+        padding: 20px;
+    }
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button.msger-send-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button.msger-send-btn:hover {
+      opacity: 0.8;
+    }
+
+	:root {
+	  --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	  --msger-bg: #fff;
+	  --border: 2px solid #ddd;
+	  --left-msg-bg: #ececec;
+	  --right-msg-bg: #579ffb;
+	}
+
+	html {
+	  box-sizing: border-box;
+	}
+
+	*,
+	*:before,
+	*:after {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: inherit;
+	}
+
+	.msger-send-btn {
+	  margin-left: 10px;
+	  background: rgb(0, 196, 65);
+	  color: #fff;
+	  font-weight: bold;
+	  cursor: pointer;
+	  transition: background 0.23s;
+	}
+	.msger-send-btn:hover {
+	  background: rgb(0, 180, 50);
+	}
+
+	.msger-chat {
+	  /*background-color: white;*/
+	  background-image: url("https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/e7eaa60f-07ca-405f-a463-16d46d09dd8e/top-view-assortment-vegetables-paper-bag.jpg?content-type=image%2Fjpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+    
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      position: fixed;
+      bottom: 14px;
+    }
+
+    p.home-link {
+      left: 5px;
+    }
+
+    p.footer {
+      left: 610px;
+      color: white;
+    }
+
+    a {
+      text-decoration: none;
+      color: #e9fae9;
+    }
+
+    a:hover {
+      color: #3e8e41;
+    }
+
+  
+</style>
+</head>
+
+<body>
+  <div class="form-container">
+      <!-- Login Form -->
+      <form id="login-form" action="/login" method="post">
+          <h2>Login</h2>
+          <div class="imgcontainer">
+              <img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/88b8022b-d639-4b41-93fa-a608d774be53/girl_8354338.png?content-type=image%2Fpng" alt="Avatar" class="avatar">
+          </div>
+          <div class="container">
+              <label for="username"><b>Username:</b></label>
+              <input type="text" placeholder="Enter Username or email" name="username" required>
+              <label for="password"><b>Password:</b></label>
+              <input type="password" class="msger-input" id="login-password" placeholder="Enter your password...If you've forgotten it, you are on your own..😊" name="password" required>
+              <button type="submit" class="msger-send-btn">Login</button>
+          </div>
+      </form>
+
+      <!-- Register Form -->
+      <form id="register-form" action="/register" method="post">
+          <h2>Register</h2>
+          <div class="imgcontainer">
+              <img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/88b8022b-d639-4b41-93fa-a608d774be53/girl_8354338.png?content-type=image%2Fpng" alt="Avatar" class="avatar">
+          </div>
+          <div class="container">
+              <label for="username"><b>Username:</b></label>
+              <input type="text" placeholder="Enter Username or email" name="username" required>
+              <label for="password"><b>Password:</b></label>
+              <input type="password" class="msger-input" id="register-password" placeholder="Enter a password you can remember..If you forget it, you are on your own..😊" name="password" required>
+              <button type="submit" class="msger-send-btn">Register</button>
+          </div>
+      </form>
+  </div>
+
+  <!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+      // Get the elements from the HTML document
+      var loginPasswordInput = document.getElementById("login-password");
+      var registerPasswordInput = document.getElementById("register-password");
+      var showPasswordButton = document.getElementById("show-password");
+      var loginButton = document.getElementById("login");
+      var loadingIcon = document.getElementById("loading");
+
+      // Add an event listener to the show password button
+      showPasswordButton.addEventListener("click", function(event) {
+          event.preventDefault();
+          // Toggle the type attribute of the password input between "password" and "text"
+          if (loginPasswordInput.type === "password") {
+              loginPasswordInput.type = "text";
+              registerPasswordInput.type = "text";
+          } else {
+              loginPasswordInput.type = "password";
+              registerPasswordInput.type = "password";
+          }
+      });
+
+      // Add an event listener to the login button
+      loginButton.addEventListener("click", function(event) {
+          event.preventDefault();
+          // Check if the username and password inputs are not empty
+          if (usernameInput.value && passwordInput.value) {
+              // Show the loading icon
+              loadingIcon.style.display = "block";
+          } else {
+              // Show an alert message
+              alert("Please enter your username and password");
+          }
+      });
+  </script>
+</body>
+<p class="home-link"><a href="https://barnofegypt.com/">Go Home</a></p>
+
+<p class="footer">Created by <a target='_blank' href="https://barnofegypt.com/">The Barn Of Egypt</a>, Copyright © 2023
+  <!-- <br>Project Samaritan: <a target="_blank" href="https://barnofegypt.com/chatbot">Samaritan </a>
+  <br>Background Image by <a href="https://www.freepik.com/free-photo/top-view-assortment-different-fresh-vegetables_9906853.htm#from_view=detail_alsolike">Freepik</a> --></p>
+
+</body>
+
+</html>

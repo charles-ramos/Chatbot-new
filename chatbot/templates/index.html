@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chat with Samaritan</title>
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2597/2597330.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+	:root {
+	  --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	  --msger-bg: #fff;
+	  --border: 2px solid #ddd;
+	  --left-msg-bg: #ececec;
+	  --right-msg-bg: #579ffb;
+	}
+
+	html {
+	  box-sizing: border-box;
+	}
+
+	*,
+	*:before,
+	*:after {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: inherit;
+	}
+
+	body {
+    background-image: url(https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/75975da0-7952-490c-a396-f507446156d8/top-view-fresh-foods-spices-vegetables-cooking-white-table.jpg?content-type=image%2Fjpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+	  display:flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 100vh;
+
+	  font-family: Helvetica, sans-serif;
+	}
+
+	.msger {
+	  display: flex;
+	  flex-flow: column wrap;
+	  justify-content: space-between;
+	  width: 100%;
+	  max-width: 700px;
+	  margin: 25px 10px;
+	  height: calc(100% - 100px);
+	  border: var(--border);
+	  border-radius: 5px;
+	  background: var(--msger-bg);
+	  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+
+	}
+
+	.msger-header {
+	  /* display: flex; */
+	  font-size: medium;
+	  justify-content: space-between;
+	  padding: 10px;
+	  text-align: center;
+	  border-bottom: var(--border);
+	  background: #eee;
+	  color: #666;
+	}
+
+	.msger-chat {
+	  flex: 1;
+	  overflow-y: auto;
+	  padding: 10px;
+	}
+	.msger-chat::-webkit-scrollbar {
+	  width: 6px;
+	}
+	.msger-chat::-webkit-scrollbar-track {
+	  background: #ddd;
+	}
+	.msger-chat::-webkit-scrollbar-thumb {
+	  background: #bdbdbd;
+	}
+	.msg {
+	  display: flex;
+	  align-items: flex-end;
+	  margin-bottom: 10px;
+	}
+
+	.msg-img {
+	  width: 50px;
+	  height: 50px;
+	  margin-right: 10px;
+	  background: #ddd;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+	  border-radius: 50%;
+	}
+	.msg-bubble {
+	  max-width: 450px;
+	  padding: 15px;
+	  border-radius: 15px;
+	  background: var(--left-msg-bg);
+	}
+	.msg-info {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  margin-bottom: 10px;
+	}
+	.msg-info-name {
+	  margin-right: 10px;
+	  font-weight: bold;
+	}
+	.msg-info-time {
+	  font-size: 0.85em;
+	}
+
+	.left-msg .msg-bubble {
+	  border-bottom-left-radius: 0;
+	}
+
+	.right-msg {
+	  flex-direction: row-reverse;
+	}
+	.right-msg .msg-bubble {
+	  background: var(--right-msg-bg);
+	  color: #fff;
+	  border-bottom-right-radius: 0;
+	}
+	.right-msg .msg-img {
+	  margin: 0 0 0 10px;
+	}
+
+	.msger-inputarea {
+	  display: flex;
+	  padding: 10px;
+	  border-top: var(--border);
+	  background: #eee;
+	}
+	.msger-inputarea * {
+	  padding: 10px;
+	  border: none;
+	  border-radius: 3px;
+	  font-size: 1em;
+	}
+	.msger-input {
+	  flex: 1;
+	  background: #ddd;
+	}
+	.msger-send-btn {
+	  margin-left: 10px;
+	  background: rgb(0, 196, 65);
+	  color: #fff;
+	  font-weight: bold;
+	  cursor: pointer;
+	  transition: background 0.23s;
+	}
+	.msger-send-btn:hover {
+	  background: rgb(0, 180, 50);
+	}
+
+	.msger-chat {
+	  /*background-color: white;*/
+	  background-image: url("https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/e7eaa60f-07ca-405f-a463-16d46d09dd8e/top-view-assortment-vegetables-paper-bag.jpg?content-type=image%2Fjpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.home-button {
+  		position: fixed;
+  		top: 10px;
+  		left: calc(50% - 50px); /* Center the button */
+  		width: 100px;
+  		height: 30px;
+  		background: #008CBA; /* Blue background */
+  		text-align: center;
+  		padding: 5px;
+  		border-radius: 5px;
+  		transition: all 0.5s ease; /* Smooth transition */
+	}
+
+	.home-button:hover {
+  		background: #4CAF50; /* Green background on hover */
+	}
+
+	.home-button a {
+  		text-decoration: none;
+  		color: white; /* White text */
+  		font-weight: bold; /* Bold text */
+	}
+
+	.ad-placeholder {
+      position: fixed;
+      width: 160px;
+      height: 200px;
+      background: #eee;
+      text-align: center;
+      padding: 5px;
+    }
+
+    .ad-placeholder-left-top {
+      top: 10px; /* Add space from the top */
+      left: 0;
+    }
+
+    .ad-placeholder-left-middle {
+      top: calc(50% - 100px);
+      left: 0;
+    }
+
+    .ad-placeholder-left-bottom {
+      bottom: 10px; /* Add space from the bottom */
+      left: 0;
+    }
+
+    .ad-placeholder-right-top {
+      top: 10px; /* Add space from the top */
+      right: 0;
+    }
+
+    .ad-placeholder-right-middle {
+      top: calc(50% - 100px);
+      right: 0;
+    }
+
+    .ad-placeholder-right-bottom {
+      bottom: 10px; /* Add space from the bottom */
+      right: 0;
+    }
+
+	.fa {
+  		font-size: 50px;
+  		cursor: pointer;
+  		user-select: none;
+	}
+
+	.fa:hover {
+  		color: darkorange;
+	}
+
+	#feedbackText {
+  width: calc(100% - 20px);
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.home-button, .rate-button, .submit-button {
+    padding: 10px;
+    background-color: #008CBA; /* Blue background 
+    color: white; /* White text 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease; /* Smooth transition 
+}
+
+.home-button:hover, .rate-button:hover, .submit-button:hover {
+    background-color: #4CAF50; /* Green background on hover 
+}
+
+.home-button a, .rate-button a, .submit-button a {
+    text-decoration: none;
+    color: white; /* White text 
+}*/
+
+</style>
+</head>
+
+<body oncontextmenu="return false;">
+
+<div class="button-group">
+	<div class="home-button">
+	  <a target="_blank" href="https://barnofegypt.com/">Go Home</a>
+	</div>
+  
+	<button onclick="openPopup()" class="rate-button">Rate us</button>
+  </div>
+
+  <div id="ratingPopup" style="display: none;">
+	<h2>Rate us:</h2>
+	<span class="fa fa-star" onclick="setRating(1)"></span>
+	<span class="fa fa-star" onclick="setRating(2)"></span>
+	<span class="fa fa-star" onclick="setRating(3)"></span>
+	<span class="fa fa-star" onclick="setRating(4)"></span>
+	<span class="fa fa-star" onclick="setRating(5)"></span>
+  
+	<!-- Feedback textbox -->
+	<textarea id="feedbackText" placeholder="Help us grow..."></textarea>
+  
+	<!-- Submit button -->
+	<button onclick="submitFeedback()">Submit</button>
+  </div>
+
+	<!-- Ad placeholders -->
+  
+  <!-- Left side ads -->
+  <div class="ad-placeholder ad-placeholder-left-top">
+    <img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/dab06fd1-edd9-49af-b891-8b23d5dc2ee7/IMG-20220412-WA0001.jpg?content-type=image%2Fjpeg" alt="Whiteplains1">
+  </div>
+
+  <div class="ad-placeholder ad-placeholder-left-middle">
+	<img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/3468d5d3-c507-451c-b120-d8e4bd65676a/IMG-20230921-WA0016.jpg?content-type=image%2Fjpeg" alt="Weddingcake1">
+  </div>
+
+  <div class="ad-placeholder ad-placeholder-left-bottom">
+	<img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/dd219505-08c2-4f85-b2cf-a50542bcebca/IMG-20230921-WA0015.jpg?content-type=image%2Fjpeg" alt="Cake company">
+  </div>
+
+   <!-- Right side ads -->
+   <div class="ad-placeholder ad-placeholder-right-top">
+	<img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/d6854d47-74fb-4728-b311-15f01dc64e91/IMG-20201126-WA0014.jpg?content-type=image%2Fjpeg" alt="Abilenejumbo">
+   </div>
+
+   <div class="ad-placeholder ad-placeholder-right-middle">
+	<img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/89c58d3b-bc8e-4491-80d4-ec0cc5bc8161/IMG-20210708-WA0008.jpg?content-type=image%2Fjpeg" alt="Whiteplains2">
+   </div>
+
+   <div class="ad-placeholder ad-placeholder-right-bottom">
+    <img src="https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/74b8fade-b0c4-4c5e-8577-e1c05788a6bf/for+ads+placement.png?content-type=image%2Fpng" alt="ADS PLACEMENT">
+   </div>
+
+  <!-- partial:index.partial.html -->
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i></i> <p style="font-size:22px;"><b>SAMARITAN 0.01 (DEMO)</b><p><i></i>
+      </div>
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/e7eaa60f-07ca-405f-a463-16d46d09dd8e/top-view-assortment-vegetables-paper-bag.jpg?content-type=image%2Fjpeg)"></div>
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">Samaritan</div>
+            <div class="msg-info-time"></div>
+          </div>
+          <div class="msg-text"><div font-family="spectral">
+            Hello, I'm <b>Samaritan!</b> The new AI powered chat assistant of <b>The Barn Of Egypt</b> designed for <b>"all things food"</b>. From the prices of food items to market review down to food recipes and more... Type below to talk to me...
+			</div>
+			</div>
+        </div>
+      </div>
+
+    </main>
+
+    <form class="msger-inputarea" action="" method="post" method="get">
+
+    <input type="text" class="msger-input" id="textInput" placeholder="Enter your message. Type 'help' to know all my capabilities..." >
+
+
+       <button type="submit" class="msger-send-btn">Send</button>
+
+    </form>
+  </section>
+
+  <!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+  
+	function openPopup() {
+  	document.getElementById('ratingPopup').style.display = 'block';
+	}
+
+	function setRating(rating) {
+  	alert('You rated us ' + rating + ' stars. Thank you!');
+	}
+
+	function submitFeedback() {
+  	var feedback = document.getElementById('feedbackText').value;
+  
+  	// Replace with your email address
+  	var emailAddress = "samuelnwufoh3210@hotmail.com";
+  
+  	// Mailto link
+  	var mailtoLink = "mailto:" + emailAddress + "?subject=Feedback&body=" + encodeURIComponent(feedback);
+  
+  	// Open the mail client
+  	window.location.href = mailtoLink;
+	}
+	
+  function play() {
+  var audio = new Audio('Handbell-ringing-sound-effect.mp3');
+  audio.play();
+  }
+
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/36d91f76-4b75-4580-b242-9c7126ec6edb/ai_10169356.png?content-type=image%2Fpng";
+    const PERSON_IMG = "https://images.squarespace-cdn.com/content/642f2843b98b1a6ee2435d8a/88b8022b-d639-4b41-93fa-a608d774be53/girl_8354338.png?content-type=image%2Fpng";
+    const BOT_NAME = "Samaritan";
+    const PERSON_NAME = "You";
+
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.value;
+		temp=msgText.split(':')
+      if((temp[0].toLowerCase()).trim()=='google')
+      {search='https://www.google.com/search?q=' + temp[1].trim()
+      window.open(search)}
+      if (!msgText) return;
+      if((temp[0].toLowerCase()).trim()=='set a timer')
+      {
+      play()}
+
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, text) {
+      //   Simple solution for small apps
+      const msgHTML = `
+<div class="msg ${side}-msg">
+  <div class="msg-img" style="background-image: url(${img})"></div>
+  <div class="msg-bubble">
+    <div class="msg-info">
+      <div class="msg-info-name">${name}</div>
+      <div class="msg-info-time">${formatDate(new Date())}</div>
+    </div>
+    <div class="msg-text">${text}</div>
+  </div>
+</div>
+`;
+
+      msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+      msgerChat.scrollTop += 500;
+    }
+/* 
+    function botResponse(rawText) {
+
+      // Bot Response
+      $.get("/get", { msg: rawText }).done(function (data) {
+			console.log(rawText);
+			console.log(data);
+			msgText = data;
+			msgText = msgText.split("\n")
+			var i;
+			for (i = 0; i < msgText.length; i++) {
+				appendMessage(BOT_NAME, BOT_IMG, "left", msgText[i]);
+			}
+		}); */
+	function botResponse(rawText) {
+  			// Bot Response
+  		/* var r = prompt("For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: ");
+  
+  		var data = { msg: rawText, r: r };
+  
+  		if (r === "1") {
+      		var product = prompt("Enter food item name");
+      		data.product = product;
+  			} */
+  
+  		$.get("/get", { msg: rawText }).done(function (data) {
+    		console.log(rawText);
+    		console.log(data);
+    		msgText = data;
+    		msgText = msgText.split("\n")
+    		var i;
+    		for (i = 0; i < msgText.length; i++) {
+      			appendMessage(BOT_NAME, BOT_IMG, "left", msgText[i]);
+    		}
+  		});
+		/* var r = prompt("For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: ");
+  
+  		var data = { msg: rawText, r: r };
+
+  		if (r === "1") {
+	  		var product = prompt("Enter food item name");
+	  		data.product = product;
+	  		}
+		$.get("/get_data", data).done(function (data) {
+    		console.log(rawText);
+    		console.log(data);
+    		msgText = data;
+    		msgText = msgText.split("\n")
+    		var i;
+    		for (i = 0; i < msgText.length; i++) {
+      			appendMessage(BOT_NAME, BOT_IMG, "left", msgText[i]);
+    		}
+  		}); */
+	}
+		
+	  /* $.get_data("/get_data", { csv: rawText }).done(function (data) {
+			console.log(rawText);
+			console.log(data);
+			msgText = data;
+			msgText = msgText.split("\n")
+			for (let row of data) {
+				let message = row.join(', ');
+				$('#chat').appendMessage(BOT_NAME, BOT_IMG, "left", '<div>' + message + msgText + '</div>')
+				
+			}
+		}); */
+	  // Bot Response csv file
+      //$.get('/get_data', function (data) {
+      //  for (let row of data) {
+		//	let message = row.join(', ');
+		//	$('#chat').append('<div>' + message + '</div>')
+      //}
+	  //{
+        //  appendMessage(BOT_NAME, BOT_IMG, "left", msgText[i]);
+      	//}
+      //});
+
+	  //}
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+
+	// A function to send a message from the chatbot
+	function chatbot_message(message) {
+  	// Get the element where the message is displayed
+  		var element = document.getElementById("chatbot_message");
+	  	// Set a delay before sending the message
+	  	var delay = Math.random() * 3000;
+	  	// Set a timeout for the delay
+	  	setTimeout(function() {
+	    // Generate a random number of mistakes
+	    var num_mistakes = Math.floor(Math.random() * 3) + 1;
+	    // Loop through the number of mistakes
+    	for (var i = 0; i < num_mistakes; i++) {
+      	// Generate a random position for the mistake
+      	var pos = Math.floor(Math.random() * message.length);
+      	// Generate a random mistake from a list of possible errors
+      	var mistakes = [".", ",", "!", "?", " ", "a", "e", "i", "o", "u"];
+      	var mistake = mistakes[Math.floor(Math.random() * mistakes.length)];
+      	// Insert the mistake into the message
+      	message = message.slice(0, pos) + mistake + message.slice(pos);
+      	// Display the message with the mistake
+      	element.innerHTML = message;
+      	// Set a delay before correcting the mistake
+      	var delay = Math.random() * 1500;
+      	// Set a timeout for the delay
+      	setTimeout(function() {
+        // Delete the mistake from the message
+        message = message.slice(0, pos) + message.slice(pos + 1);
+        // Display the message without the mistake
+        element.innerHTML = message;
+      }, delay);
+    }
+    // Set a final delay before sending the message
+    var delay = Math.random() * 1500;
+    // Set a timeout for the delay
+    setTimeout(function() {
+      // Display the final message with a newline
+      element.innerHTML = message + "\n";
+    }, delay);
+  }, delay);
+}
+
+// Test the chatbot_message function with an example message
+//chatbot_message("Hello, this is Samaritan. How can I help?");
+
+
+  </script>
+  <!-- <p style="position: fixed;bottom: 0;left: 5px; bottom: 14px;font-size: 14px;"><a href="https://barnofegypt.com/">Go Home</a></p> -->
+
+  <p style="position: fixed;bottom: 0;left: 610px;font-size: 14px; color:  rgb(255, 255, 255)">Created by <a target='_blank' href="https://barnofegypt.com/">The Barn Of Egypt</a>,Copyright &copy; 2023 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project Samaritan: <a target="_blank" href="https://barnofegypt.com/chatbot">Samaritan </a> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Background Image by <a href="https://www.freepik.com/free-photo/top-view-assortment-different-fresh-vegetables_9906853.htm#from_view=detail_alsolike">Freepik</a></p>
+
+</body>
+
+</html>

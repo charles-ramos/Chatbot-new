@@ -1,0 +1,617 @@
+OBSERVED_DATE,PRODUCT_ID,PRODUCT_DESC,PRODUCT_CATEGORY,LOCATION_NAME,MARKET_NAME,MARKET_ID,MARKET_DESC,CURRENCY,PRICE_STRIP,PRICE
+03/03/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,100
+03/03/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,200"
+03/03/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"52,500"
+03/03/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,700
+03/03/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,650
+03/03/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"48,800"
+03/03/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"37,500"
+03/03/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,500"
+03/03/2023 00:00:00,APBC002,Beef boneless Cow (1 kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,000"
+03/03/2023 00:00:00,VBP001,Bell Pepper (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,800"
+03/03/2023 00:00:00,NBK001,Bitter kola (per 1),Nuts,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,100
+03/03/2023 00:00:00,LB001,Bitterleaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,000"
+03/03/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,VC0002,Cabbage (big),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,VC0001,Cabbage (small),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,300
+03/03/2023 00:00:00,OC0001,Canola Oil (per liter),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,200"
+03/03/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,000"
+03/03/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,500"
+03/03/2023 00:00:00,APCD0002,Catfish dried,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,500"
+03/03/2023 00:00:00,APCB0007,Chicken (broiler),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"5,500"
+03/03/2023 00:00:00,APCL0007,Chicken (local),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"4,500"
+03/03/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,500"
+03/03/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,400"
+03/03/2023 00:00:00,APDF001,Duckfowl,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"5,500"
+03/03/2023 00:00:00,SE0001,Egusi (cup),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,300
+03/03/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,000"
+03/03/2023 00:00:00,GSGG001,Garlic,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,700
+03/03/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,300
+03/03/2023 00:00:00,WFGW002,Garri White (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"16,000"
+03/03/2023 00:00:00,WFGW001,Garri White (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,250
+03/03/2023 00:00:00,YFGY002,Garri Yellow (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"23,500"
+03/03/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,GSGG001,Ginger,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,000"
+03/03/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,000"
+03/03/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"6,000"
+03/03/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,100"
+03/03/2023 00:00:00,GG002,Groundnut (100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"110,000"
+03/03/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,GGC002,Guinea Corn (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,APGF001,Guineafowl,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"4,500"
+03/03/2023 00:00:00,PFH001,Honey (Highest Grade),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,000"
+03/03/2023 00:00:00,RTIF002,Irish potato (bag),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"55,000"
+03/03/2023 00:00:00,RTIF001,Irish potato (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,800"
+03/03/2023 00:00:00,PFMA001,Macaroni (full pack),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"8,000"
+03/03/2023 00:00:00,GGMF001,Maize grain (white),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,GGMF001,Maize grain (yellow),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,FFMF001,Mango (small basket),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"90,000"
+03/03/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"4,000"
+03/03/2023 00:00:00,GGMF001,Millet,Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,SO001,Ogbono (cup),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,800
+03/03/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"8,000"
+03/03/2023 00:00:00,LLO001,Oha leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,500"
+03/03/2023 00:00:00,OOG001,Oil Groundnut (1liter),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,150"
+03/03/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,200"
+03/03/2023 00:00:00,OOV001,Oil Vegetable (1 bottle),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,100"
+03/03/2023 00:00:00,LLOF001,Okazi leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,200"
+03/03/2023 00:00:00,VO002,Okro (big basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,500"
+03/03/2023 00:00:00,VO001,Okro (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,VOB002,Onion bulb (bag),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"32,000"
+03/03/2023 00:00:00,VOB001,Onion bulb (basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,400"
+03/03/2023 00:00:00,FO001,Orange (basket),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,400
+03/03/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,200"
+03/03/2023 00:00:00,FPA001,Pawpaw,Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,300
+03/03/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,FP002,Pineapple (big),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,800
+03/03/2023 00:00:00,FP001,Pineapple (small),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,FPL002,Plantain(ripe),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"4,000"
+03/03/2023 00:00:00,FPL003,Plantain(unripe),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"4,500"
+03/03/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"2,800"
+03/03/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,000"
+03/03/2023 00:00:00,GGROF001,Rice Broken (Ofada) 1 mudu,Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,800
+03/03/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,400"
+03/03/2023 00:00:00,GGRI002,Rice Imported High quality (50kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"44,500"
+03/03/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,900
+03/03/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"67,500"
+03/03/2023 00:00:00,PFS001,Salt,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,LLS001,Scentleaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,700
+03/03/2023 00:00:00,PFSE002,Semovita (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"7,500"
+03/03/2023 00:00:00,PFSE001,Semovita (pcs),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,750
+03/03/2023 00:00:00,APS001,Snail,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"3,500"
+03/03/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,600
+03/03/2023 00:00:00,PFSP001,Spaghetti (full pack),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"8,500"
+03/03/2023 00:00:00,LLS001,Spinach,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,800
+03/03/2023 00:00:00,APS001,Stockfish,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,500"
+03/03/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"34,000"
+03/03/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,100"
+03/03/2023 00:00:00,RTSP002,Sweet potato (bag),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"15,500"
+03/03/2023 00:00:00,RTSP001,Sweet potato (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,VT001,Tatashe,Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,500"
+03/03/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"18,000"
+03/03/2023 00:00:00,VT001,Tomato (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,800"
+03/03/2023 00:00:00,FLUF001,Ugu (Fluted pumpkin),Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,000"
+03/03/2023 00:00:00,LLU001,Ugu leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,FW002,Watermelon (big),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,"1,300"
+03/03/2023 00:00:00,FW001,Watermelon (small),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,500
+03/03/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/03/2023,800
+03/04/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,100
+03/04/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,200"
+03/04/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"52,500"
+03/04/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,700
+03/04/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,600
+03/04/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"48,000"
+03/04/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"37,000"
+03/04/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,500"
+03/04/2023 00:00:00,VBP001,Bell Pepper,Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,NBK001,Bitter kola,Nuts,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,100
+03/04/2023 00:00:00,LB001,Bitterleaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"3,000"
+03/04/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,000"
+03/04/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,000"
+03/04/2023 00:00:00,VC0002,Cabbage (big),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,VC0001,Cabbage (small),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,OC0001,Canola Oil (per liter),Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/04/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,000"
+03/04/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,APCD0002,Catfish dried,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,500"
+03/04/2023 00:00:00,APCB0007,Chicken (broiler),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"5,500"
+03/04/2023 00:00:00,APCL0007,Chicken (local),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"4,500"
+03/04/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"3,500"
+03/04/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,400"
+03/04/2023 00:00:00,APDF001,Duckfowl,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"5,500"
+03/04/2023 00:00:00,SE0001,Egusi (cup),Seed,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,000"
+03/04/2023 00:00:00,GSGG001,Garlic,Spice,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,700
+03/04/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,WFGW001,Garri White (mudu),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,250
+03/04/2023 00:00:00,YFGY001,Garri Yellow (bag),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"23,500"
+03/04/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,GSGG001,Ginger,Spice,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,700
+03/04/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"5,000"
+03/04/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"3,000"
+03/04/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"10,000"
+03/04/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,000"
+03/04/2023 00:00:00,GG002,Groundnut (100kg bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"95,000"
+03/04/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,GGC002,Guinea Corn (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,APGF001,Guineafowl,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"5,000"
+03/04/2023 00:00:00,PFH001,Honey (Highest Grade),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,500"
+03/04/2023 00:00:00,RTIF001,Irish potato (bag),Root Tubers,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"60,000"
+03/04/2023 00:00:00,GGMF001,Maize grain (white),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,GGMF001,Maize grain (yellow),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,FFMF001,Mango,Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"90,000"
+03/04/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"4,000"
+03/04/2023 00:00:00,GGMF001,Millet,Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,SO001,Ogbono (cup),Seed,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,800
+03/04/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"8,000"
+03/04/2023 00:00:00,LLO001,Oha leaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,OOO001,Oil Olive,Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/04/2023 00:00:00,OOV001,Oil Vegetable (1 bottle),Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,150"
+03/04/2023 00:00:00,LLOF001,Okazi leaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,000"
+03/04/2023 00:00:00,VO002,Okro (big basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,800"
+03/04/2023 00:00:00,VO001,Okro (small basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,VOB002,Onion bulb (bag),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"34,000"
+03/04/2023 00:00:00,VOB001,Onion bulb (basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,FO001,Orange,Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,000"
+03/04/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/04/2023 00:00:00,FPA001,Pawpaw,Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,FP002,Pineapple (big),Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,700
+03/04/2023 00:00:00,FP001,Pineapple (small),Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,300
+03/04/2023 00:00:00,FPL002,Plantain(ripe),Fruit,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"4,000"
+03/04/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,800"
+03/04/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,500"
+03/04/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"2,500"
+03/04/2023 00:00:00,GGRI002,Rice Imported High quality (1 bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"44,500"
+03/04/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,400"
+03/04/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,900
+03/04/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"67,500"
+03/04/2023 00:00:00,PFS001,Salt,Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,500
+03/04/2023 00:00:00,LLS001,Scentleaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,700
+03/04/2023 00:00:00,PFSE002,Semovita (bag),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"7,500"
+03/04/2023 00:00:00,PFSE001,Semovita (pcs),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,750
+03/04/2023 00:00:00,APS001,Snail,Animal Protein,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"3,500"
+03/04/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,600
+03/04/2023 00:00:00,OOS001,Soyaoil,Oils,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/04/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"35,000"
+03/04/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/04/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"20,000"
+03/04/2023 00:00:00,VT001,Tomato (small basket),Vegetable,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,900"
+03/04/2023 00:00:00,FLUF001,Ugu (Fluted pumpkin),Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,000"
+03/04/2023 00:00:00,LLU001,Ugu leaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,LLW001,Waterleaf,Leaves,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,400
+03/04/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Zuba, FCT Abuja",Zuba Market,ZM01,"Market in Zuba, Abuja",NGN,01/03/2023,"1,200"
+03/13/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,100
+03/13/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,200"
+03/13/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"52,500"
+03/13/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,700
+03/13/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,900
+03/13/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"67,500"
+03/13/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"37,500"
+03/13/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,000"
+03/13/2023 00:00:00,APBC002,Beef boneless Cow (1 kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,500"
+03/13/2023 00:00:00,VBP001,Bell Pepper,Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,800"
+03/13/2023 00:00:00,NBK001,Bitter kola (per 1),Nuts,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,100
+03/13/2023 00:00:00,LB001,Bitterleaf,Leaves,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,500"
+03/13/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,VC0002,Cabbage (big),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,800
+03/13/2023 00:00:00,VC0001,Cabbage (small),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,OC0001,Canola Oil (per liter),Oils,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,200"
+03/13/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,000"
+03/13/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,000"
+03/13/2023 00:00:00,APCD0002,Catfish dried,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,500"
+03/13/2023 00:00:00,APCBF0002,Chicken Feet,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,700
+03/13/2023 00:00:00,APCB0003,Chicken Frozen (1.5kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,000"
+03/13/2023 00:00:00,APCB0004,Chicken Full Frozen (1kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,200"
+03/13/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"4,000"
+03/13/2023 00:00:00,APCBW0009,Chicken Wings,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,000"
+03/13/2023 00:00:00,APCBL0005,Chicken laps (1kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,500"
+03/13/2023 00:00:00,APCL0007,Chicken local ,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,500"
+03/13/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,800"
+03/13/2023 00:00:00,SE0001,Egusi (cup),Seed,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,300
+03/13/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,000"
+03/13/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,800
+03/13/2023 00:00:00,WFGW001,Garri White,Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,700
+03/13/2023 00:00:00,YFGY001,Garri Yellow (bag),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"23,500"
+03/13/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"5,000"
+03/13/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,000"
+03/13/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"10,000"
+03/13/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,100"
+03/13/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,GGC002,Guinea Corn (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,RTIF001,Irish potato (bag),Root Tubers,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"55,000"
+03/13/2023 00:00:00,GGMF001,Maize grain (white),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,GGMF001,Maize grain (yellow),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,FFMF001,Mango,Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,400
+03/13/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"90,000"
+03/13/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"4,000"
+03/13/2023 00:00:00,SO001,Ogbono (cup),Seed,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,800
+03/13/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"8,000"
+03/13/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,200"
+03/13/2023 00:00:00,OOV001,Oil Vegetable (1 bottle),Oils,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,150"
+03/13/2023 00:00:00,VO001,Okro (basket),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,500"
+03/13/2023 00:00:00,VOB001,Onion bulb (basket),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,500"
+03/13/2023 00:00:00,FO001,Orange,Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,500"
+03/13/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,500"
+03/13/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,FP002,Pineapple (big),Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,500"
+03/13/2023 00:00:00,FP001,Pineapple (small),Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,FP002,Plantain (ripe),Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"5,000"
+03/13/2023 00:00:00,FP003,Plantain (unripe),Fruit,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"5,000"
+03/13/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,800"
+03/13/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"3,000"
+03/13/2023 00:00:00,GGROF001,Rice Broken (Ofada) 1 mudu,Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,800
+03/13/2023 00:00:00,GGRI002,Rice Imported High quality (1 bag),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"38,000"
+03/13/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,500"
+03/13/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"67,500"
+03/13/2023 00:00:00,PFS001,Salt,Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,500
+03/13/2023 00:00:00,LLS001,Scentleaf,Leaves,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,600
+03/13/2023 00:00:00,APS001,Snail,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"4,000"
+03/13/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,800
+03/13/2023 00:00:00,OOS001,Soyaoil,Oils,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,200"
+03/13/2023 00:00:00,LLS001,Spinach,Leaves,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,APS001,Stockfish,Animal Protein,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,500"
+03/13/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"34,000"
+03/13/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,100"
+03/13/2023 00:00:00,VT001,Tatashe,Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,800"
+03/13/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"22,000"
+03/13/2023 00:00:00,VT002,Tomato (small basket),Vegetable,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"2,000"
+03/13/2023 00:00:00,LLU001,Ugu leaf (Fluted pumpkin),Leaves,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,LLW001,Waterleaf,Leaves,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,000"
+03/13/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"1,300"
+03/13/2023 00:00:00,RTY002,Yam tuber (bunch of five),Root Tubers,"Wuse, FCT Abuja",Wuse Market,WM01,"General Market in Wuse District, Abuja",NGN,01/03/2023,"6,500"
+03/18/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,100
+03/18/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,200"
+03/18/2023 00:00:00,FBB0001,Banana (big),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,500"
+03/18/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"63,000"
+03/18/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,850
+03/18/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,850
+03/18/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"63,000"
+03/18/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,750
+03/18/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"56,000"
+03/18/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,600"
+03/18/2023 00:00:00,APBC002,Beef boneless Cow (1 kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,000"
+03/18/2023 00:00:00,VBP001,Bell Pepper,Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,800"
+03/18/2023 00:00:00,NBK001,Bitter kola (single),Nuts,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,100
+03/18/2023 00:00:00,LB001,Bitterleaf,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,500"
+03/18/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,VC0001,Cabbage (big),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,400"
+03/18/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,500"
+03/18/2023 00:00:00,APCB0001,Chicken Broiler Fresh (1kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,200"
+03/18/2023 00:00:00,APCBF0002,Chicken Feet,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,700
+03/18/2023 00:00:00,APCB0003,Chicken Frozen (1.5kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,000"
+03/18/2023 00:00:00,APCB0004,Chicken Full Frozen (1kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,200"
+03/18/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,500"
+03/18/2023 00:00:00,APCBW0009,Chicken Wings,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,000"
+03/18/2023 00:00:00,APCBL0005,Chicken laps (1kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,500"
+03/18/2023 00:00:00,APCL0007,Chicken local ,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"4,500"
+03/18/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,600"
+03/18/2023 00:00:00,APCF0001,Crayfish,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,500"
+03/18/2023 00:00:00,APDF001,Duckfowl,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"6,000"
+03/18/2023 00:00:00,SE0001,Egusi (cup),Seed,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,300
+03/18/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,000"
+03/18/2023 00:00:00,GSGG001,Garlic,Spice,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,400
+03/18/2023 00:00:00,WFGW001,Garri White,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,400
+03/18/2023 00:00:00,YFGY001,Garri Yellow (bag),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"23,500"
+03/18/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,400
+03/18/2023 00:00:00,GSGG001,Ginger,Spice,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"5,000"
+03/18/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"3,000"
+03/18/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"10,000"
+03/18/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,100"
+03/18/2023 00:00:00,GG002,Groundnut (100kg bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"110,000"
+03/18/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,GGC002,Guinea Corn (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,APGF001,Guineafowl,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"5,500"
+03/18/2023 00:00:00,PFH001,Honey (Highest Grade),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,500"
+03/18/2023 00:00:00,APISF001,Iced Sardine,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,700
+03/18/2023 00:00:00,RTIF001,Irish potato (bag),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"60,000"
+03/18/2023 00:00:00,PFMA001,Macaroni (full pack),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"8,500"
+03/18/2023 00:00:00,GGMF001,Maize grain (white),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,GGMF001,Maize grain (yellow),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,FFMF001,Mango (big single),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"90,000"
+03/18/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"4,000"
+03/18/2023 00:00:00,GGMF001,Millet,Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,SO001,Ogbono (cup),Seed,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,800
+03/18/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"8,000"
+03/18/2023 00:00:00,LLO001,Oha leaf,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,OOO001,Oil Olive,Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,500"
+03/18/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,200"
+03/18/2023 00:00:00,OOV001,Oil Vegetable (1 bottle),Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,150"
+03/18/2023 00:00:00,LLOF001,Okazi leaf,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,VO002,Okro (big basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,800"
+03/18/2023 00:00:00,VO001,Okro (small basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,400
+03/18/2023 00:00:00,VOB002,Onion bulb (bag),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"34,000"
+03/18/2023 00:00:00,VOB001,Onion bulb (basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,500"
+03/18/2023 00:00:00,FO001,Orange (basket),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,500"
+03/18/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,500"
+03/18/2023 00:00:00,FPA001,Pawpaw (big),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,300"
+03/18/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,FP002,Pineapple (big),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,400"
+03/18/2023 00:00:00,FP001,Pineapple (small),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,FP002,Plantain(ripe),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"4,500"
+03/18/2023 00:00:00,FP003,Plantain(unripe),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"4,000"
+03/18/2023 00:00:00,RTIP002,Potato Irish (bag),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"60,000"
+03/18/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,800"
+03/18/2023 00:00:00,RTSP002,Potato Sweet (bag),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"18,500"
+03/18/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,500"
+03/18/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,600"
+03/18/2023 00:00:00,GGROF001,Rice Broken (Ofada) 1 mudu,Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,800
+03/18/2023 00:00:00,GGRI002,Rice Imported High quality (1 bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"37,500"
+03/18/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,400"
+03/18/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,900
+03/18/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"67,500"
+03/18/2023 00:00:00,PFS001,Salt,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,LLS001,Scentleaf,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,600
+03/18/2023 00:00:00,PFSE002,Semovita (bag),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"8,500"
+03/18/2023 00:00:00,PFSE001,Semovita (pcs),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,850
+03/18/2023 00:00:00,APS001,Snail,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"4,000"
+03/18/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,600
+03/18/2023 00:00:00,OOS001,Soyaoil (1l),Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,200"
+03/18/2023 00:00:00,OOS002,Soyaoil (25l),Oils,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"30,000"
+03/18/2023 00:00:00,PFSP001,Spaghetti (full pack),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"9,000"
+03/18/2023 00:00:00,LLS001,Spinach,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,000"
+03/18/2023 00:00:00,APS001,Stockfish,Animal Protein,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,200"
+03/18/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"35,000"
+03/18/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,200"
+03/18/2023 00:00:00,VT001,Tatashe,Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,600"
+03/18/2023 00:00:00,PFT001,Thyme,Processed Food,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,000"
+03/18/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"20,000"
+03/18/2023 00:00:00,VT001,Tomato (small basket),Vegetable,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,900"
+03/18/2023 00:00:00,LLU001,Ugu leaf (Fluted pumpkin),Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,LLW001,Waterleaf,Leaves,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,500
+03/18/2023 00:00:00,FW002,Watermelon (big),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"2,300"
+03/18/2023 00:00:00,FW001,Watermelon (small),Fruit,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,700
+03/18/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"1,200"
+03/18/2023 00:00:00,RTY002,Yam tuber (bunch of five),Root Tubers,"Utako, FCT Abuja",Utako Market,UM01,"Market in Utako District, Abuja",NGN,01/03/2023,"6,000"
+04/06/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,100
+04/06/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,200"
+04/06/2023 00:00:00,FBB0001,Banana (big),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,500"
+04/06/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"63,000"
+04/06/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,850
+04/06/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,850
+04/06/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"63,000"
+04/06/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,750
+04/06/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"56,000"
+04/06/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,600"
+04/06/2023 00:00:00,APBC002,Beef boneless Cow (1 kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,000"
+04/06/2023 00:00:00,VBP001,Bell Pepper,Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,800"
+04/06/2023 00:00:00,NBK001,Bitter kola (single),Nuts,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,100
+04/06/2023 00:00:00,LB001,Bitterleaf,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,500"
+04/06/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,VC0001,Cabbage (big),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,400"
+04/06/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,500"
+04/06/2023 00:00:00,APCB0001,Chicken Broiler Fresh (1kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,200"
+04/06/2023 00:00:00,APCBF0002,Chicken Feet,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,700
+04/06/2023 00:00:00,APCB0003,Chicken Frozen (1.5kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,000"
+04/06/2023 00:00:00,APCB0004,Chicken Full Frozen (1kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,200"
+04/06/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,500"
+04/06/2023 00:00:00,APCBW0009,Chicken Wings,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,000"
+04/06/2023 00:00:00,APCBL0005,Chicken laps (1kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,500"
+04/06/2023 00:00:00,APCL0007,Chicken local ,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"4,500"
+04/06/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,600"
+04/06/2023 00:00:00,APCF0001,Crayfish,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,500"
+04/06/2023 00:00:00,APDF001,Duckfowl,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"6,000"
+04/06/2023 00:00:00,SE0001,Egusi (cup),Seed,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,300
+04/06/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,000"
+04/06/2023 00:00:00,GSGG001,Garlic,Spice,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,400
+04/06/2023 00:00:00,WFGW001,Garri White,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,400
+04/06/2023 00:00:00,YFGY001,Garri Yellow (bag),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"23,500"
+04/06/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,400
+04/06/2023 00:00:00,GSGG001,Ginger,Spice,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"5,000"
+04/06/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"3,000"
+04/06/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"10,000"
+04/06/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,100"
+04/06/2023 00:00:00,GG002,Groundnut (100kg bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"110,000"
+04/06/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,GGC002,Guinea Corn (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,APGF001,Guineafowl,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"5,500"
+04/06/2023 00:00:00,PFH001,Honey (Highest Grade),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,500"
+04/06/2023 00:00:00,APISF001,Iced Sardine,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,700
+04/06/2023 00:00:00,RTIF001,Irish potato (bag),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"60,000"
+04/06/2023 00:00:00,PFMA001,Macaroni (full pack),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"8,500"
+04/06/2023 00:00:00,GGMF001,Maize grain (white),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,GGMF001,Maize grain (yellow),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,FFMF001,Mango (big single),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"90,000"
+04/06/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"4,000"
+04/06/2023 00:00:00,GGMF001,Millet,Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,SO001,Ogbono (cup),Seed,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,800
+04/06/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"8,000"
+04/06/2023 00:00:00,LLO001,Oha leaf,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,OOO001,Oil Olive,Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,500"
+04/06/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,200"
+04/06/2023 00:00:00,OOV001,Oil Vegetable (1 bottle),Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,150"
+04/06/2023 00:00:00,LLOF001,Okazi leaf,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,VO002,Okro (big basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,800"
+04/06/2023 00:00:00,VO001,Okro (small basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,400
+04/06/2023 00:00:00,VOB002,Onion bulb (bag),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"34,000"
+04/06/2023 00:00:00,VOB001,Onion bulb (basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,500"
+04/06/2023 00:00:00,FO001,Orange (basket),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,500"
+04/06/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,500"
+04/06/2023 00:00:00,FPA001,Pawpaw (big),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,300"
+04/06/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,FP002,Pineapple (big),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,400"
+04/06/2023 00:00:00,FP001,Pineapple (small),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,FP002,Plantain(ripe),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"4,500"
+04/06/2023 00:00:00,FP003,Plantain(unripe),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"4,000"
+04/06/2023 00:00:00,APP001,Pork,Animal Protein,FCT Abuja,Abuja,Abj001,Abuja,NGN,01/04/2023,"3,500"
+04/06/2023 00:00:00,RTIP002,Potato Irish (bag),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"60,000"
+04/06/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,800"
+04/06/2023 00:00:00,RTSP002,Potato Sweet (bag),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"18,500"
+04/06/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,500"
+04/06/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,600"
+04/06/2023 00:00:00,GGROF001,Rice Broken (Ofada) 1 mudu,Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,800
+04/06/2023 00:00:00,GGRI002,Rice Imported High quality (1 bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"37,500"
+04/06/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,400"
+04/06/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,900
+04/06/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"67,500"
+04/06/2023 00:00:00,PFS001,Salt,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,LLS001,Scentleaf,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,600
+04/06/2023 00:00:00,PFSE002,Semovita (bag),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"8,500"
+04/06/2023 00:00:00,PFSE001,Semovita (pcs),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,850
+04/06/2023 00:00:00,APS001,Snail,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"4,000"
+04/06/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,600
+04/06/2023 00:00:00,OOS001,Soyaoil (1l),Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,200"
+04/06/2023 00:00:00,OOS002,Soyaoil (25l),Oils,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"30,000"
+04/06/2023 00:00:00,PFSP001,Spaghetti (full pack),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"9,000"
+04/06/2023 00:00:00,LLS001,Spinach,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,000"
+04/06/2023 00:00:00,APS001,Stockfish,Animal Protein,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,200"
+04/06/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"35,000"
+04/06/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,200"
+04/06/2023 00:00:00,VT001,Tatashe,Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,600"
+04/06/2023 00:00:00,PFT001,Thyme,Processed Food,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,000"
+04/06/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"20,000"
+04/06/2023 00:00:00,VT001,Tomato (small basket),Vegetable,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,900"
+04/06/2023 00:00:00,LLU001,Ugu leaf (Fluted pumpkin),Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,LLW001,Waterleaf,Leaves,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,500
+04/06/2023 00:00:00,FW002,Watermelon (big),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"2,300"
+04/06/2023 00:00:00,FW001,Watermelon (small),Fruit,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,700
+04/06/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"1,200"
+04/06/2023 00:00:00,RTY002,Yam tuber (bunch of five),Root Tubers,"Wuye, FCT Abuja",Wuye Market,WM02,"Market in Wuye District, Abuja",NGN,01/04/2023,"6,000"
+04/21/2023 00:00:00,APAE0003,Agric eggs (medium size price of one),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,100
+04/21/2023 00:00:00,APAE0007,Agric eggs medium size (1 crate of 30pcs),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,800"
+04/21/2023 00:00:00,GBH0001,Beans Honey (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"60,000"
+04/21/2023 00:00:00,GBH0002,Beans Honey (mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,700
+04/21/2023 00:00:00,GBB0001,Beans brown (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,650
+04/21/2023 00:00:00,GBB0002,Beans brown (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"50,500"
+04/21/2023 00:00:00,GBW0001,Beans white black eye (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,GBW0002,Beans white black eye (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"54,000"
+04/21/2023 00:00:00,APBC001,Beef Cow (1kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,200"
+04/21/2023 00:00:00,APBC002,Beef boneless Cow (1 kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,500"
+04/21/2023 00:00:00,VBP001,Bell Pepper (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,000"
+04/21/2023 00:00:00,NBK001,Bitter kola (per 1),Nuts,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,100
+04/21/2023 00:00:00,LB001,Bitterleaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,SBF001,Bread fruit (ukwa),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,000"
+04/21/2023 00:00:00,BFBS001,Bread sliced 500g,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,BFBUS002,Bread unsliced 500g,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,VC0002,Cabbage (big),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,VC0001,Cabbage (small),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,300
+04/21/2023 00:00:00,OC0001,Canola Oil (per liter),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,200"
+04/21/2023 00:00:00,VC0002,Carrot (basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,000"
+04/21/2023 00:00:00,APCF0001,Catfish (obokun) fresh (1 kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,500"
+04/21/2023 00:00:00,APCD0002,Catfish dried (carton),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"45,000"
+04/21/2023 00:00:00,APCB0007,Chicken (broiler),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"5,500"
+04/21/2023 00:00:00,APCL0007,Chicken (local),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,500"
+04/21/2023 00:00:00,APCL0008,Chicken Old Layers,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,500"
+04/21/2023 00:00:00,VCP001,Chilli pepper,Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,400"
+04/21/2023 00:00:00,APDF001,Duckfowl,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"8,500"
+04/21/2023 00:00:00,SE0001,Egusi (cup),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,SE0002,Egusi (mudu),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,500"
+04/21/2023 00:00:00,GSGG001,Garlic,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,700
+04/21/2023 00:00:00,IFGI001,Garri Ijebu,Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,WFGW002,Garri White (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"25,000"
+04/21/2023 00:00:00,WFGW001,Garri White (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,YFGY002,Garri Yellow (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"25,000"
+04/21/2023 00:00:00,YFGY001,Garri Yellow (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,GSGG002,Ginger (dry mudu),Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,900
+04/21/2023 00:00:00,GSGG001,Ginger (fresh mudu),Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,800
+04/21/2023 00:00:00,APG001,Goat (Head),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,500"
+04/21/2023 00:00:00,APG002,Goat meat (1kg),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,000"
+04/21/2023 00:00:00,APG002,Goat meat (laps),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"15,000"
+04/21/2023 00:00:00,GG001,Groundnut (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,100"
+04/21/2023 00:00:00,GG002,Groundnut (100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"110,000"
+04/21/2023 00:00:00,GGC002,Guinea Corn (1 bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"32,000"
+04/21/2023 00:00:00,GGC001,Guinea Corn (1 kg),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,APGF001,Guineafowl,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,500"
+04/21/2023 00:00:00,PFH001,Honey (Highest Grade),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,000"
+04/21/2023 00:00:00,RTIF002,Irish potato (bag),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"48,000"
+04/21/2023 00:00:00,RTIF001,Irish potato (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,800"
+04/21/2023 00:00:00,PFMA001,Macaroni (full pack),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"8,000"
+04/21/2023 00:00:00,GGMF001,Maize grain (white 100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"27,000"
+04/21/2023 00:00:00,GGMF001,Maize grain (white mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,GGMF001,Maize grain (yellow 100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"27,000"
+04/21/2023 00:00:00,GGMF001,Maize grain (yellow mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,FFMF001,Mango (small basket),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,PFMF001,Milk (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"90,000"
+04/21/2023 00:00:00,PFMF001,Milk (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,000"
+04/21/2023 00:00:00,GGMF001,Millet,Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,450
+04/21/2023 00:00:00,GGMF002,Millet (bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"33,000"
+04/21/2023 00:00:00,SO001,Ogbono (cup),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,SO002,Ogbono (mudu),Seed,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"8,000"
+04/21/2023 00:00:00,LLO001,Oha leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,500"
+04/21/2023 00:00:00,OOG001,Oil Groundnut (1liter),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,150"
+04/21/2023 00:00:00,OOS001,Oil Soya (1 bottle),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,200"
+04/21/2023 00:00:00,OOV001,Oil Vegetable (1.5l),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,100"
+04/21/2023 00:00:00,OOV002,Oil Vegetable (25l),Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"33,000"
+04/21/2023 00:00:00,LLOF001,Okazi leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,200"
+04/21/2023 00:00:00,VO002,Okro (big basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"14,000"
+04/21/2023 00:00:00,VO001,Okro (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,VOB003,Onion bulb (bag),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"32,000"
+04/21/2023 00:00:00,VOB002,Onion bulb (basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,400"
+04/21/2023 00:00:00,VOB001,Onion bulb (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,FO001,Orange (basket),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,400
+04/21/2023 00:00:00,OPO001,Palm oil 1 bottle,Oils,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,200"
+04/21/2023 00:00:00,FPF001,Palmfruit (mudu),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,700
+04/21/2023 00:00:00,FPA001,Pawpaw,Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,300
+04/21/2023 00:00:00,SSPA001,Pepper Alligator,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,SSPC001,Pepper Cameroon,Spice,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,APPE001,Periwinkles (cup),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,900
+04/21/2023 00:00:00,APPE001,Periwinkles (mudu),Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"9,000"
+04/21/2023 00:00:00,FP002,Pineapple (big),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,800
+04/21/2023 00:00:00,FP001,Pineapple (small),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,FPL002,Plantain(ripe),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,000"
+04/21/2023 00:00:00,FPL003,Plantain(unripe),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,500"
+04/21/2023 00:00:00,APPO001,Pork,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,500"
+04/21/2023 00:00:00,RTIP001,Potato Irish (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,800"
+04/21/2023 00:00:00,RTSP001,Potato Sweet (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,APRM001,Ram meat,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,000"
+04/21/2023 00:00:00,GGROF001,Rice Broken (Ofada) 1 mudu,Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,800
+04/21/2023 00:00:00,GGRI001,Rice Imported High quality (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,400"
+04/21/2023 00:00:00,GGRI003,Rice Imported High quality (50kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"40,000"
+04/21/2023 00:00:00,GGRI002,Rice Nigerian Foreign (50kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"36,000"
+04/21/2023 00:00:00,GGRF001,Rice local (1 mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,900
+04/21/2023 00:00:00,GGRF001,Rice local (100kg bag),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"67,500"
+04/21/2023 00:00:00,PFS001,Salt (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"4,000"
+04/21/2023 00:00:00,LLS001,Scentleaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,700
+04/21/2023 00:00:00,PFSE002,Semovita (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"7,500"
+04/21/2023 00:00:00,PFSE001,Semovita (pcs),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,750
+04/21/2023 00:00:00,APS001,Snail,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"3,500"
+04/21/2023 00:00:00,GGS001,Soyabeans (mudu),Grain,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,PFSP001,Spaghetti (full pack),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"8,500"
+04/21/2023 00:00:00,LLS001,Spinach,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,800
+04/21/2023 00:00:00,APS001,Stockfish,Animal Protein,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,500"
+04/21/2023 00:00:00,PFS001,Sugar (bag),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"34,000"
+04/21/2023 00:00:00,PFS001,Sugar (mudu),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,100"
+04/21/2023 00:00:00,RTSP002,Sweet potato (bag),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"15,500"
+04/21/2023 00:00:00,RTSP001,Sweet potato (basket),Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,VT001,Tatashe (basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"2,500"
+04/21/2023 00:00:00,VT001,Tomato (big basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"15,500"
+04/21/2023 00:00:00,VT001,Tomato (small basket),Vegetable,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,800"
+04/21/2023 00:00:00,FLUF001,Ugu (Fluted pumpkin),Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,000"
+04/21/2023 00:00:00,LLU001,Ugu leaf,Leaves,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,FW002,Watermelon (big),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,300"
+04/21/2023 00:00:00,FW001,Watermelon (small),Fruit,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,500
+04/21/2023 00:00:00,PFWF001,Wheat flour (5kg),Processed Food,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"6,500"
+04/21/2023 00:00:00,RTY001,Yam tuber,Root Tubers,"Gosa, FCT Abuja",Gosa Market,GM01,"Friday only market in Gosa, Abuja",NGN,01/04/2023,"1,100"
