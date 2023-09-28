@@ -15,4 +15,4 @@ random
 time
 webbrowser
 tensorflow
-pip install --upgrade pip
+pip==23.2.1
