@@ -10,8 +10,4 @@ pygame
 gunicorn
 pytz
 pickle5
-json
-random
-time
-webbrowser
-tensorflow
+tensorflow==1.13.1
