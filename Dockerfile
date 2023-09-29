@@ -1,5 +1,6 @@
+```
 # Use an official updated Python runtime as a parent image
-FROM python:3.11
+FROM python:3.9
 
 # Set the working directory in the container to /app
 WORKDIR /chatbot
@@ -8,7 +9,7 @@ WORKDIR /chatbot
 ADD . /chatbot
 
 # Install build dependencies
-RUN apt-get update && apt-get install -y build-essential
+RUN apt-get update && apt-get install -y gcc python3-dev
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
@@ -18,3 +19,4 @@ EXPOSE 80
 
 # Run app.py when the container launches
 CMD ["python", "routes.py"]
+```
