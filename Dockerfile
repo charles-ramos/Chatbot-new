@@ -7,11 +7,11 @@ WORKDIR /chatbot
 # Copy the current directory contents into the container at /app
 COPY . /chatbot
 
-# Install build dependencies
-RUN apt-get update && apt-get install -y gcc python3-dev
+# Update package list
+RUN apt-get update
 
-# Install necessary packages for numpy build
-RUN apt-get install -y libatlas-base-dev
+# Install build dependencies
+RUN apt-get install -y gcc python3-dev libatlas-base-dev
 
 # Update pip
 RUN pip install --upgrade pip
