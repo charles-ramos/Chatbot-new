@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y gcc python3-dev
 # Install necessary packages for numpy build
 RUN apt-get install -y libatlas-base-dev
 
+# Update pip
+RUN pip install --upgrade pip
+
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -20,4 +23,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80/tcp
 
 # Run app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["python", "routes.py"]
