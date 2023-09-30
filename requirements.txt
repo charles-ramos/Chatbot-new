@@ -1,5 +1,5 @@
 pickle5
-tensorflow==2.6
+tensorflow==2.5
 setuptools>=41.0.0
 Flask==1.1.2
 flask_wtf
