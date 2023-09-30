@@ -10,7 +10,7 @@ COPY . /chatbot
 RUN apt-get update
 
 # Install build dependencies
-RUN apt-get install -y gcc python3-dev libatlas-base-dev python3-pip
+RUN apt-get install -y gcc python3-dev libatlas-base-dev python3-pip python3-venv pipx
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80/tcp
 
 # Run app.py when the container launches
-CMD ["executable", "param1", "param2"]
+CMD ["executable","param1","param2"]
