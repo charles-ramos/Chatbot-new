@@ -1,5 +1,5 @@
-# Use an official updated Python runtime as a parent image
-FROM python:3.9
+# Use an official updated Debian runtime as a parent image
+FROM debian:latest
 
 # Set the working directory in the container to /app
 WORKDIR /chatbot
