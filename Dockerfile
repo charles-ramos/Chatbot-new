@@ -1,4 +1,5 @@
-FROM debian:latest
+# Use an official updated Python runtime as a parent image
+FROM python:3.9
 
 # Set the working directory in the container to /app
 WORKDIR /chatbot
@@ -6,11 +7,11 @@ WORKDIR /chatbot
 # Copy the current directory contents into the container at /app
 COPY . /chatbot
 
-# Update package list
-RUN apt-get update
-
 # Install build dependencies
-RUN apt-get install -y gcc python3-dev libatlas-base-dev python3-pip python3-venv pipx
+RUN apt-get update && apt-get install -y gcc python3-dev
+
+# Install necessary packages for numpy build
+RUN apt-get install -y libatlas-base-dev
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
@@ -19,4 +20,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80/tcp
 
 # Run app.py when the container launches
-CMD ["executable","param1","param2"]
+CMD ["python", "routes.py"]
