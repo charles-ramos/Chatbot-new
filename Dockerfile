@@ -11,7 +11,10 @@ ADD . /chatbot
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Make port 8081 available to the world outside this container
-EXPOSE 8081
+EXPOSE 8200
 
 # Run app.py when the container launches
 CMD ["python", "chatbot.py"]
+
+docker build -t docker_flask:latest .
+docker run my-service -p 8200:8200 --network="host"
