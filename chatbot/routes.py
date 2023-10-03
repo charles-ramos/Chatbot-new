@@ -7,7 +7,7 @@ import nltk
 import pickle
 import json
 import numpy as np
-from keras.models import Sequential,load_model
+from tensorflow.keras.models import Sequential,load_model
 import random
 from datetime import datetime
 import pytz
