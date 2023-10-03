@@ -34,7 +34,6 @@ data_file = open('chatbot_codes\intents.json').read()
 #data_file = io.open('chatbot_codes\intents.json', encoding='cp1252', errors='ignore').read()
 #data_file = io.open('chatbot_codes\intents.json', encoding='latin1').read()
 intents = json.loads(data_file)
-csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
@@ -176,42 +175,6 @@ def predict_class(sentence,model):
         return_list.append({'intent':classes[result[0]],'prob':str(result[1])})
     return return_list
 
-def searchByProductDesc():
-    product=input('Enter food item name\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[2]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByDate():
-    product=input('Enter observed date of food prices\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[0]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByLocation():
-    product=input('Enter the location of the market\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[4]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByMarketName():
-    product=input('Enter the name of the market\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[5]:
-            c=str(print(', '.join(row)))
-    return c
-
 
 def get_response(return_list, intents_json, text):
     
@@ -224,33 +187,6 @@ def get_response(return_list, intents_json, text):
         print(time.strftime("%A"))
         print (time.strftime("%d %B %Y"))
         print (time.strftime("%H:%M:%S"))
-
-    if tag=='prices':
-        
-        r = int(input('For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: '))
-
-        print (r)
-
-        if r==1:
-            x = searchByProductDesc()
-            #print(x)
-            print (x)
-        elif r==2:
-            x = searchByDate()
-            #print(x)
-            print (x)
-        elif r==3:
-            x = searchByLocation()
-            #print(x)
-            print (x)
-        elif r==4:
-            x = searchByMarketName()
-            #print(x)
-            print (x)
-        else:
-            x = 'Sorry, invalid input! For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Try again! '
-            #print(x)
-            print (x)
 
     if tag=='google':
         query=input('Enter query...')
