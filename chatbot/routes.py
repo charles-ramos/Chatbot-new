@@ -1,7 +1,7 @@
 from chatbot import app
 from flask import Flask, render_template,flash, request, jsonify
 from chatbot.forms import chatbotform
-from chatbot.__init__ import model,words,classes,intents,csv_file
+from chatbot.__init__ import model,words,classes,intents
 
 import nltk
 import pickle
@@ -17,7 +17,6 @@ import billboard
 import time
 from pygame import mixer
 import COVID19Py
-import csv
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
@@ -51,41 +50,7 @@ def predict_class(sentence,model):
         return_list.append({'intent':classes[result[0]],'prob':str(result[1])})
     return return_list
 
-def searchByProductDesc():
-    product=input('Enter food item name\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
 
-    for row in csv_file:
-        if product==row[2]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByDate():
-    product=input('Enter observed date of food prices\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[0]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByLocation():
-    product=input('Enter the location of the market\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[4]:
-            c=str(print(', '.join(row)))
-    return c
-
-def searchByMarketName():
-    product=input('Enter the name of the market\n')
-    csv_file=csv.reader(open('chatbot_codes\GeneralProductPricing.csv','r'))
-
-    for row in csv_file:
-        if product==row[5]:
-            c=str(print(', '.join(row)))
-    return c
 
 """ def prices_prompt():
     r = int(input('For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: '))
