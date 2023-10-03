@@ -15,6 +15,3 @@ EXPOSE 8200
 
 # Run app.py when the container launches
 CMD ["python", "chatbot.py"]
-
-docker build -t docker_flask:latest .
-docker run my-service -p 8200:8200 --network="host"
