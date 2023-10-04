@@ -128,7 +128,7 @@ print(model.summary())
 print("Done..You may proceed!")
 
 from tensorflow.keras.models import load_model
-model = load_model('chatbot_codes\mymodel.h5')
+model = load_model('chatbot_codes\mymodel.h5', compile = False)
 intents = json.loads(open('chatbot_codes\intents.json').read())
 words = pickle.load(open('chatbot_codes\words.pkl','rb'))
 classes = pickle.load(open('chatbot_codes\classes.pkl','rb'))
