@@ -21,8 +21,6 @@ import csv
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
-
-
 #Predict
 def clean_up(sentence):
     sentence_words=nltk.word_tokenize(sentence)
