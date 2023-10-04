@@ -9,8 +9,6 @@ COPY requirements.txt /chatbot
 # Add the current directory contents into the container at /app
 ADD . /chatbot
 
-RUN /usr/local/bin/python -m pip install --upgrade pip
-
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 
