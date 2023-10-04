@@ -1,5 +1,5 @@
 
-import tensorflow.keras
+import keras
 import nltk
 import pickle
 import json
@@ -110,7 +110,7 @@ model.add(Dropout(0.5))
 model.add(Dense(len(y_train[0]), activation='softmax'))
 
 # Compile model.
-adam=keras.optimizers.Adam(0.001)
+adam=tensorflow.keras.optimizers.Adam(0.001)
 model.compile(optimizer=adam,loss='categorical_crossentropy',metrics=['accuracy'])
 # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
 #sgd: object = tf.keras.optimizers.legacy.SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
@@ -127,7 +127,7 @@ print(model.summary())
 
 print("Done..You may proceed!")
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 model = load_model('chatbot_codes\mymodel.h5')
 intents = json.loads(open('chatbot_codes\intents.json').read())
 words = pickle.load(open('chatbot_codes\words.pkl','rb'))
