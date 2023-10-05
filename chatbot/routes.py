@@ -7,6 +7,8 @@ import nltk
 import pickle
 import json
 import numpy as np
+from silence_tensorflow import silence_tensorflow
+silence_tensorflow()
 from tensorflow.keras.models import Sequential,load_model
 import random
 from datetime import datetime
