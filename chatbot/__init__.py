@@ -9,6 +9,8 @@ import keras
 import nltk
 import pickle
 import json
+from silence_tensorflow import silence_tensorflow
+silence_tensorflow()
 from tensorflow.keras.models import load_model
 import csv
 import os
