@@ -7,7 +7,7 @@ WORKDIR /chatbot
 COPY requirements.txt /chatbot
 
 # Add the current directory contents into the container at /app
-ADD . /chatbot
+COPY . /chatbot
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
@@ -18,4 +18,5 @@ RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 EXPOSE 8081
 
 # Run app.py when the container launches
-CMD ["python", "chatbot.py"]
+CMD ["python", "/chatbot/chatbot.py"]
+
