@@ -1,5 +1,4 @@
-
-import keras
+import tensorflow.keras
 import nltk
 import pickle
 import json
@@ -16,11 +15,10 @@ import requests
 #from pycricbuzz import Cricbuzz (cricket news)
 #import billboard
 import time
-from pygame import mixer
+#from pygame import mixer
 #import COVID19Py (covid19 results)
-import csv
+#import csv
 import io
-
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
@@ -36,7 +34,7 @@ data_file = open('chatbot_codes\intents.json').read()
 #data_file = io.open('chatbot_codes\intents.json', encoding='cp1252', errors='ignore').read()
 #data_file = io.open('chatbot_codes\intents.json', encoding='latin1').read()
 intents = json.loads(data_file)
-csv_file=csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
+#csv_file=csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
@@ -161,7 +159,6 @@ def create_bow(sentence, words):
                     #print ("found in bag: %s" % w)
     return np.array(bag)
 
-
 def predict_class(sentence,model):
     # filter out predictions below a threshold
     p = create_bow(sentence, words)
@@ -177,7 +174,7 @@ def predict_class(sentence,model):
     for result in results:
         return_list.append({'intent':classes[result[0]],'prob':str(result[1])})
     return return_list
-
+'''
 def searchByProductDesc():
     product=input('Enter food item name\n')
     csv_file=csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
@@ -213,7 +210,7 @@ def searchByMarketName():
         if product==row[5]:
             c=str(print(', '.join(row)))
     return c
-
+'''
 
 def get_response(return_list, intents_json, text):
     
@@ -227,7 +224,7 @@ def get_response(return_list, intents_json, text):
         print (time.strftime("%d %B %Y"))
         print (time.strftime("%H:%M:%S"))
 
-    if tag=='prices':
+    '''if tag=='prices':
         
         r = int(input('For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: '))
 
@@ -301,7 +298,7 @@ def get_response(return_list, intents_json, text):
         time.sleep(float(x)*60)
         mixer.music.load('Handbell-ringing-sound-effect.mp3')
         mixer.music.play()
-        
+        '''
     #if tag=='covid19':
     #    
     #   covid19=COVID19Py.COVID19(data_source='jhu')
