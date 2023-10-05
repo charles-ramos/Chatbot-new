@@ -10,6 +10,11 @@ COPY requirements.txt /chatbot
 ADD . /chatbot
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
+RUN pip uninstall tensorflow
+RUN pip uninstall tensorflow-gpu
+RUN pip install tensorflow-gpu==2.0.0
+RUN pip install tensorflow_hub
+RUN pip install tensorflow_datasets
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r /chatbot/requirements.txt
