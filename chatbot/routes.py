@@ -1,7 +1,7 @@
 from chatbot import app
 from flask import Flask, render_template,flash, request, jsonify
 from chatbot.forms import chatbotform
-from chatbot.__init__ import model,words,classes,intents,csv_file
+from chatbot.__init__ import model,words,classes,intents
 
 import nltk
 import pickle
@@ -15,11 +15,11 @@ from datetime import datetime
 import pytz
 import requests
 import os
-import billboard
+#import billboard
 import time
-from pygame import mixer
-import COVID19Py
-import csv
+#from pygame import mixer
+#import COVID19Py
+#import csv
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
@@ -51,7 +51,7 @@ def predict_class(sentence,model):
         return_list.append({'intent':classes[result[0]],'prob':str(result[1])})
     return return_list
 
-def searchByProductDesc():
+"""def searchByProductDesc():
     product=input('Enter food item name\n')
     csv_file=csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
 
@@ -87,7 +87,7 @@ def searchByMarketName():
             c=str(print(', '.join(row)))
     return c
 
-""" def prices_prompt():
+    #def prices_prompt():
     r = int(input('For food prices: \n Enter 1 to search by product name (eg. Bitterleaf) \n Enter 2 to search by observed date (eg. 03/03/2023) \n Enter 3 to search by market location (eg. Wuse, FCT Abuja) \n Enter 4 to search by market name (eg. Wuse Market) \n Enter here: '))
     ans = response(r)
     print(ans) """
@@ -149,7 +149,7 @@ def get_response(return_list,intents_json,text):
         
         #print(str(r))
         #return r, 'prices'
-        '''
+        
 
 
     if tag=='weather':
@@ -234,7 +234,7 @@ def get_response(return_list,intents_json,text):
             latest_deaths=np.array(latest_deaths)
             x+='Confirmed Cases:'+str(np.sum(latest_conf))+' Deaths:'+str(np.sum(latest_deaths))
             return x,'covid19'
-
+'''
     list_of_intents= intents_json['intents']
     for i in list_of_intents:
         if tag==i['tag'] :
