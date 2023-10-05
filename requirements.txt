@@ -14,3 +14,6 @@ COVID19Py==0.3.0
 gunicorn==19.9.0
 billboard.py
 pytz==2019.3
+tensorflow-gpu==2.0.0
+tensorflow_hub
+tensorflow_datasets
