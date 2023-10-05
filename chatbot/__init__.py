@@ -12,7 +12,7 @@ import json
 from silence_tensorflow import silence_tensorflow
 silence_tensorflow()
 from tensorflow.keras.models import load_model
-import csv
+#import csv
 import os
 
 from nltk.stem import WordNetLemmatizer
@@ -23,7 +23,7 @@ intents = json.loads(open('chatbot_codes/intents.json').read())
 #intents = json.loads(open('chatbot_codes\intents.json', encoding='cp1252', errors='ignore').read())
 words = pickle.load(open('chatbot_codes/words.pkl','rb'))
 classes = pickle.load(open('chatbot_codes/classes.pkl','rb'))
-csv_file = csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
+#csv_file = csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
 
 import tensorflow as tf
 import tensorflow_hub as hub
