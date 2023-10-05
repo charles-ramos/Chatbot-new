@@ -102,10 +102,10 @@ y_train=list(training[:,1])
 # Create model - 3 layers. First layer 256 neurons, second layer 128 neurons and 3rd output layer contains number of neurons
 # equal to number of intents to predict output intent with softmax
 model=Sequential()
-model.add(Dense(1024, input_shape=(len(X_train[0]),), activation='relu'))
+model.add(Dense(512, input_shape=(len(X_train[0]),), activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(512, activation='relu'))
-model.add(Dense(512, activation='relu'))
+model.add(Dense(256, activation='relu'))
+model.add(Dense(256, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(y_train[0]), activation='softmax'))
 
@@ -118,7 +118,7 @@ model.compile(optimizer=adam,loss='categorical_crossentropy',metrics=['accuracy'
 
 #fitting and saving the model
 #model.fit(np.array(X_train),np.array(y_train),epochs=200,batch_size=10,verbose=1)
-weights = model.fit(np.array(X_train),np.array(y_train),epochs=2000,batch_size=10,verbose=1)
+weights = model.fit(np.array(X_train),np.array(y_train),epochs=1000,batch_size=10,verbose=1)
 model.save('chatbot_codes\mymodel.h5',weights)
 
 print("model created and saved")
