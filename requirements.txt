@@ -14,6 +14,7 @@ requests==2.23.0
 gunicorn==19.9.0
 #billboard.py
 pytz==2019.3
-tensorflow-gpu==2.0.0
+#tensorflow-gpu==2.0.0
+tensorflow
 tensorflow_hub
 tensorflow_datasets
