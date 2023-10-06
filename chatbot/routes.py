@@ -2,7 +2,6 @@ from chatbot import app
 from flask import Flask, render_template,flash, request, jsonify
 from chatbot.forms import chatbotform
 from chatbot.__init__ import model,words,classes,intents
-
 import nltk
 import pickle
 import json
@@ -23,6 +22,7 @@ import time
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
+
 #Predict
 def clean_up(sentence):
     sentence_words=nltk.word_tokenize(sentence)
