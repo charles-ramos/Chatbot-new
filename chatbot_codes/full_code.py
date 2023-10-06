@@ -15,9 +15,9 @@ import requests
 #from pycricbuzz import Cricbuzz (cricket news)
 #import billboard
 import time
-#from pygame import mixer
+from pygame import mixer
 #import COVID19Py (covid19 results)
-#import csv
+import csv
 import io
 
 from nltk.stem import WordNetLemmatizer
@@ -127,8 +127,8 @@ print(model.summary())
 
 print("Done..You may proceed!")
 
-from tensorflow.keras.models import load_model
-model = load_model('chatbot_codes\mymodel.h5', compile = False)
+from keras.models import load_model
+model = load_model('chatbot_codes\mymodel.h5')
 intents = json.loads(open('chatbot_codes\intents.json').read())
 words = pickle.load(open('chatbot_codes\words.pkl','rb'))
 classes = pickle.load(open('chatbot_codes\classes.pkl','rb'))
@@ -159,6 +159,7 @@ def create_bow(sentence, words):
                     #print ("found in bag: %s" % w)
     return np.array(bag)
 
+
 def predict_class(sentence,model):
     # filter out predictions below a threshold
     p = create_bow(sentence, words)
@@ -174,8 +175,8 @@ def predict_class(sentence,model):
     for result in results:
         return_list.append({'intent':classes[result[0]],'prob':str(result[1])})
     return return_list
-'''
-def searchByProductDesc():
+
+'''def searchByProductDesc():
     product=input('Enter food item name\n')
     csv_file=csv.reader(open('chatbot_codes/GeneralProductPricing.csv','r'))
 
@@ -209,8 +210,8 @@ def searchByMarketName():
     for row in csv_file:
         if product==row[5]:
             c=str(print(', '.join(row)))
-    return c
-'''
+    return c'''
+
 
 def get_response(return_list, intents_json, text):
     
@@ -297,8 +298,8 @@ def get_response(return_list, intents_json, text):
         x=input('Minutes to timer..')
         time.sleep(float(x)*60)
         mixer.music.load('Handbell-ringing-sound-effect.mp3')
-        mixer.music.play()
-        '''
+        mixer.music.play()'''
+        
     #if tag=='covid19':
     #    
     #   covid19=COVID19Py.COVID19(data_source='jhu')
