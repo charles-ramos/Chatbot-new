@@ -24,6 +24,17 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
 
+import tensorflow as tf
+import tensorflow_hub as hub
+import tensorflow_datasets as tfds
+
+print("Version: ", tf.__version__)
+print("Eager mode: ", tf.executing_eagerly())
+print("Hub Version: ", hub.__version__)
+print("GPU is", "available" if tf.config.experimental.list_physical_devices("GPU") else "NOT AVAILABLE")
+
+os.environ[‘TF_CPP_MIN_LOG_LEVEL’] = ‘2’
+
 words=[]
 classes = []
 documents = []
@@ -127,7 +138,7 @@ print(model.summary())
 
 print("Done..You may proceed!")
 
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 model = load_model('chatbot_codes\mymodel.h5')
 intents = json.loads(open('chatbot_codes\intents.json').read())
 words = pickle.load(open('chatbot_codes\words.pkl','rb'))
