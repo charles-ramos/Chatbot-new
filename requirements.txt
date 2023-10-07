@@ -15,7 +15,6 @@ gunicorn==19.9.0
 #billboard.py
 pytz==2019.3
 #tensorflow-gpu==2.0.0
-uninstall tensorflow
 tensorflow==2.3.4
 tensorflow_hub
 tensorflow_datasets
