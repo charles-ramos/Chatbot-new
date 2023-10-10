@@ -18,6 +18,6 @@ RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 EXPOSE 8080
 
 # Run app.py when the container launches
-#CMD ["python", "/chatbot/chatbot.py"]
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:chatbot"]
+CMD ["python","0.0.0.0:8080", "/chatbot/chatbot.py"]
+#CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:chatbot"]
 
