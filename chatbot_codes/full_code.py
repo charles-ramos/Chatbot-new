@@ -24,14 +24,14 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
 
 
-import tensorflow as tf
-import tensorflow_hub as hub
-import tensorflow_datasets as tfds
+#import tensorflow as tf
+#import tensorflow_hub as hub
+#import tensorflow_datasets as tfds
 
-print("Version: ", tf.__version__)
-print("Eager mode: ", tf.executing_eagerly())
-print("Hub Version: ", hub.__version__)
-print("GPU is", "available" if tf.config.experimental.list_physical_devices("GPU") else "NOT AVAILABLE")
+#print("Version: ", tf.__version__)
+#print("Eager mode: ", tf.executing_eagerly())
+#print("Hub Version: ", hub.__version__)
+#print("GPU is", "available" if tf.config.experimental.list_physical_devices("GPU") else "NOT AVAILABLE")
 
 words=[]
 classes = []
