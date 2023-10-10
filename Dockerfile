@@ -20,4 +20,3 @@ EXPOSE 8181
 # Run app.py when the container launches
 CMD ["python", "/chatbot/chatbot.py"]
 #CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:chatbot"]
-
