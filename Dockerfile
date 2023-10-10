@@ -14,8 +14,8 @@ RUN /usr/local/bin/python -m pip install --upgrade pip
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 
-# Make port 8081 available to the world outside this container
-EXPOSE 80
+# Make port 8181 available to the world outside this container
+EXPOSE 8181
 
 # Run app.py when the container launches
 CMD ["python", "/chatbot/chatbot.py"]
