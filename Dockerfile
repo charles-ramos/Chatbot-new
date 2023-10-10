@@ -11,6 +11,7 @@ COPY . /chatbot
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
+RUN pip uninstall tensorflow
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 
