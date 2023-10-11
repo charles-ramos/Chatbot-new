@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11
+FROM python:3.6.10
 
 # Set the working directory in the container to /app
 WORKDIR /chatbot
@@ -18,6 +18,6 @@ RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 EXPOSE 8181
 
 # Run app.py when the container launches
-CMD ["python", "/chatbot/chatbot.py"]
-#CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:chatbot"]
+#CMD ["python", "/chatbot/chatbot.py"]
+CMD ["gunicorn", "-b", "0.0.0.0:8181", "app:chatbot"]
 
