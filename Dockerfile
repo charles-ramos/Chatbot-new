@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r /chatbot/requirements.txt
 EXPOSE 8181
 
 # Run app.py when the container launches
-CMD ["python", "/chatbot/chatbot_codes/full_code.py"]
+CMD ["python", "/chatbot/chatbot.py"]
