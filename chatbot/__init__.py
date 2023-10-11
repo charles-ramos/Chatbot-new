@@ -14,6 +14,7 @@ import json
 from tensorflow.keras.models import load_model
 #import csv
 import os
+os.environ['TF_ENABLE_MLIR_OPTIMIZATIONS'] = '1'
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
