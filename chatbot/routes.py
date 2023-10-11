@@ -17,7 +17,7 @@ import requests
 import os
 #import billboard
 import time
-#from pygame import mixer
+from pygame import mixer
 #import COVID19Py
 #import csv
 
