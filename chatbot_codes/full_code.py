@@ -9,7 +9,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense,Dropout,Activation
 import random
 import datetime
-from googlesearch import *
+#from googlesearch import *
 import webbrowser
 import requests
 #from pycricbuzz import Cricbuzz (cricket news)
