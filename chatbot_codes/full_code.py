@@ -3,8 +3,8 @@ import nltk
 import pickle
 import json
 import numpy as np
-from silence_tensorflow import silence_tensorflow
-silence_tensorflow()
+#from silence_tensorflow import silence_tensorflow
+#silence_tensorflow()
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense,Dropout,Activation
 import random
