@@ -2,6 +2,7 @@ from chatbot import app
 from flask import Flask, render_template,flash, request, jsonify
 from chatbot.forms import chatbotform
 from chatbot.__init__ import model,words,classes,intents
+
 import nltk
 import pickle
 import json
