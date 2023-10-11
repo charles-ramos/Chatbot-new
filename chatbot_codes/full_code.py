@@ -19,6 +19,9 @@ from pygame import mixer
 #import COVID19Py (covid19 results)
 import csv
 import io
+import os
+
+os.environ['TF_ENABLE_MLIR_OPTIMIZATIONS'] = '1'
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer=WordNetLemmatizer()
