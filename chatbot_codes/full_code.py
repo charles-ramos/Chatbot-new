@@ -1,4 +1,4 @@
-import tensorflow.keras
+import tensorflow
 import nltk
 import pickle
 import json
